@@ -1,8 +1,7 @@
 package HomeWork_Java3_8;
 
 public class Main {
-
-
+    
     public static void main(String[] args) {
 
         int m = 5;
@@ -73,7 +72,7 @@ public class Main {
         for (int x = 0; x < m; x++) {
             for (int y = 0; y < n; y++) {
                 if (array[x][y] < 10) {
-                    
+
                     System.out.print(array[x][y] + ",  ");
                 } else {
                     System.out.print(array[x][y] + ", ");
